@@ -4,17 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-// DARK THEME / LIGHT THEME ------------------------------------------------------------------------------------------
-const themeSwitch = document.getElementById("theme-switch");
-const themeBody = document.getElementById("theme-body");
 
-themeSwitch.addEventListener("change", () => {
-  if (themeSwitch.checked) {
-    themeBody.classList.add("dark-mode");
-  } else {
-    themeBody.classList.remove("dark-mode");
-  }
-});
 
 (function($) {
 
@@ -345,5 +335,17 @@ themeSwitch.addEventListener("change", () => {
 						$menu._hide();
 
 			});
+
+			// DARK THEME / LIGHT THEME ------------------------------------------------------------------------------------------
+const themeSwitch = document.getElementById("theme-switch");
+const themeBody = document.getElementById("theme-body");
+
+themeSwitch.addEventListener("change", () => {
+  if (themeSwitch.checked) {
+    themeBody.classList.add("dark-mode");
+  } else {
+    themeBody.classList.remove("dark-mode");
+  }
+});
 
 })(jQuery);

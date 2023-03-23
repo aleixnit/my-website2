@@ -3575,7 +3575,7 @@ body.is-preload #header.alt {
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
   pointer-events: none;
-  background-color: #018150;
+  background-color: black;
   content: "";
   display: block;
   height: 100%;
