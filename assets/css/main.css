@@ -190,10 +190,16 @@ html {
 body {
   background: #000000;
 }
+
 /*LIGHT THEME PROPERTIES ---------------------------------------------------*/
 body.dark-mode {
   background-color: #ffffff;
   color: #000000;
+}
+
+.animation1 {
+	display: flex;
+	justify-content: center;
 }
 
 body.is-preload *,
