@@ -3023,15 +3023,15 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 5):before {
-  background-color: #05fe9f9b;
+  background-color: #05fe9faa;
 }
 
 .tiles article:nth-child(6n - 4):before {
-  background-color: #05fe9f9b;
+  background-color: #05fe9fee;
 }
 
 .tiles article:nth-child(6n - 3):before {
-  background-color: #05fe9f9b;
+  background-color: #05fe9fe9;
 }
 
 .tiles article:nth-child(6n - 2):before {
